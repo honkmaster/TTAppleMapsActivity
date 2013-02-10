@@ -17,7 +17,16 @@ Add the `TTAppleMapsActivity` subfolder to your project. There are no required l
 
 ## Usage.
 
-Coming soon.
+```objectivec
+TTAppleMapsActivity *appleMapsActivity = [[TTAppleMapsActivity alloc] init];
+appleMapsActivity.latitude = @(self.userlocation.coordinate.latitude);
+appleMapsActivity.longitude = @(self.userlocation.coordinate.longitude);
+            
+NSArray *applicationActivities = @[appleMapsActivity];
+UIActivityViewController *activityViewController = [[UIActivityViewController alloc] initWithActivityItems:nil applicationActivities:applicationActivities];
+        
+[self presentViewController:activityViewController animated:YES completion:NULL];
+```
 
 ## License
 
