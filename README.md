@@ -9,11 +9,11 @@
 ## Requirements
 
 - As `UIActivity` is iOS 6 only, so is the subclass.
-- This project uses ARC. If you want to use it in a non ARC project, you must add the `-fobjc-arc` compiler flag to TTOpenInAppActivity.m in Target Settings > Build Phases > Compile Sources.
+- This project uses ARC. If you want to use it in a non ARC project, you must add the `-fobjc-arc` compiler flag to TTAppleMapsActivity.m in Target Settings > Build Phases > Compile Sources.
 
 ## Installation
 
-Add the `TTOpenInAppActivity` subfolder to your project. There are no required libraries other than `UIKit`.
+Add the `TTAppleMapsActivity` subfolder to your project. There are no required libraries other than `UIKit`.
 
 ## Usage.
 
